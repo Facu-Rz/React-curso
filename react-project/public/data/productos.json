@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "Árbol Rascador para Gatos",
+        "imagen": "/img/arbolRascadorGatos.jpg",
+        "descripcion": "Centro de actividades multinivel para gatos con cuevas, plataformas de descanso, rampas rascadoras y juguetes colgantes. Forrado en felpa suave y postes de sisal natural.",
+        "precio": 85000
+    },
+    {
+        "id": 2,
+        "nombre": "Pipeta Power Ultra para Perros Cachorros",
+        "imagen": "/img/pipetaPerrosCachorros.jpg",
+        "descripcion": "Pipeta pulguicida, garrapaticida y repelente de mosquitos para perros y cachorros de 2 a 4 kg. Protección efectiva y fácil aplicación.",
+        "precio": 4500
+    },
+    {
+        "id": 3,
+        "nombre": "Collar para Perros con Soporte para GPS/AirTag",
+        "imagen": "/img/collarPerros-gps.jpg",
+        "descripcion": "Collar de nylon resistente con costuras reflectantes para mayor visibilidad nocturna. Incluye un compartimento especial para colocar dispositivos de rastreo.",
+        "precio": 12000
+    },
+    {
+        "id": 4,
+        "nombre": "Cama Moisés para Gatos y Perros Pequeños",
+        "imagen": "/img/camaGatos-moises.jpg",
+        "descripcion": "Cama ultra suave de forma circular tipo 'donut'. Diseñada para reducir la ansiedad y proporcionar el máximo confort térmico a tu mascota.",
+        "precio": 25000
+    },
+    {
+        "id": 5,
+        "nombre": "Arnés y Correa para Perros",
+        "imagen": "/img/arnesPerros.jpg",
+        "descripcion": "Arnés ergonómico de malla transpirable color azul. Incluye correa a juego. Ideal para paseos cómodos y seguros sin presión en el cuello.",
+        "precio": 15500
+    },
+    {
+        "id": 6,
+        "nombre": "Alimento Cat Chow Adultos - Carne y Pollo 8kg",
+        "imagen": "/img/alimentoGatos.jpg",
+        "descripcion": "Alimento balanceado completo para gatos adultos a partir de 1 año. Con multiproteína, prebiótico natural y defensa plus para reforzar el tracto urinario.",
+        "precio": 32000
+    }
+]
