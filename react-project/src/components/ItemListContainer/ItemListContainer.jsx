@@ -8,7 +8,7 @@ export const ItemListContainer = () => {
   useEffect(() => {
     setLoading(true);
 
-    fetch("/public/data/productos.json")
+    fetch("/data/productos.json")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.log("Hubo un error:", err))
