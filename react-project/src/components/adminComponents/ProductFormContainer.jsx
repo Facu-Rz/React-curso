@@ -3,8 +3,8 @@ import "./ProductFormContainer.css";
 import { useState } from "react";
 import { ProductFormUI } from "./ProductFormUI";
 import { validateProduct } from "../../utils/validateProduct";
-import { uploadImage } from "../../services/uploadImage";
-import { createProduct } from "../../services/productsService";
+import { uploadImage } from "../../services/UploadImage";
+import { createProduct } from "../../services/ProductsService";
 
 export const ProductFormContainer = () => {
   const navigate = useNavigate();
