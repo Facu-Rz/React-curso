@@ -1,13 +1,13 @@
 import "./Item.css";
 
 
-export const Item = ({ nombre, imagen, descripcion, precio, children }) => {
+export const Item = ({ name, image, description, price, children }) => {
   return (
     <article className="card">
-      <img src={imagen} alt={`foto de ${nombre}`} />
-      <h3>{nombre}</h3>
-      <p>{descripcion}</p>
-      <p>${precio}</p>
+      <img src={image} alt={`foto de ${name}`} />
+      <h3>{name}</h3>
+      <p>{description}</p>
+      <p>${price}</p>
       {children}
     </article>
   );

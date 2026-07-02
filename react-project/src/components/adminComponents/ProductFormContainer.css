@@ -1,0 +1,173 @@
+/* ---------------- FORMULARIO ---------------- */
+
+.product-form {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 2rem;
+
+  background: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+
+  color: #1a1a1a;
+}
+
+.product-form h2 {
+  margin-bottom: 1.5rem;
+  padding-bottom: .8rem;
+
+  font-size: 1.8rem;
+  font-weight: 600;
+
+  border-bottom: 1px solid #e8e8e8;
+}
+
+/* ---------------- CAMPOS ---------------- */
+
+.product-form > div {
+  display: grid;
+  gap: .45rem;
+  margin-bottom: 1.2rem;
+}
+
+.product-form label {
+  font-weight: 500;
+  color: #444;
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form input[type="file"],
+.product-form textarea {
+  width: 100%;
+
+  padding: .75rem .9rem;
+
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+
+  background: #fff;
+  color: #1a1a1a;
+
+  outline: none;
+  transition: .2s ease;
+}
+
+.product-form textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.product-form ::placeholder {
+  color: #999;
+}
+
+/* ---------------- FOCUS ---------------- */
+
+.product-form input:focus,
+.product-form textarea:focus {
+  border-color: #D32F2F;
+  box-shadow: 0 0 0 3px rgba(211,47,47,.12);
+}
+
+/* ---------------- TEXTO AUXILIAR ---------------- */
+
+.product-form small {
+  color: #666;
+}
+
+/* ---------------- PREVIEW ---------------- */
+
+.product-form img {
+  max-width: 220px;
+
+  margin-top: .5rem;
+
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* ---------------- BOTÓN ---------------- */
+
+.btn-admin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: .75rem 1.4rem;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #D32F2F;
+  color: white;
+
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: .2s ease;
+}
+
+.btn-admin:hover {
+  background: #ee0000;
+  transform: translateY(-2px);
+}
+
+.btn-admin:active {
+  transform: translateY(0);
+}
+
+.btn-admin:disabled {
+  background: #999;
+  cursor: not-allowed;
+  transform: none;
+}
+
+
+
+/* ---------------- DOS COLUMNAS ---------------- */
+
+@media (min-width: 640px) {
+  .product-form .row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+/* ---------------- PÁGINA DE ÉXITO ---------------- */
+
+.success-page {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 2rem;
+
+  background: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+
+  text-align: center;
+}
+
+.success-page .success-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.success-page h2 {
+  margin-bottom: .75rem;
+}
+
+.success-page p {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* ---------------- ERRORES ---------------- */
+
+.error {
+  margin-top: .3rem;
+  color: #D32F2F;
+  font-size: .9rem;
+  font-weight: 500;
+}

@@ -55,6 +55,6 @@ export const CartProvider = ({children}) => {
         navigate("/");
     };
     
-    const values = { exist, addItem, getTotalItems, getCartTotal, removeItem, clearCart, checkout};
+    const values = { cart, exist, addItem, getTotalItems, getCartTotal, removeItem, clearCart, checkout};
     return <CartContext.Provider value = {values}> {children} </CartContext.Provider>;
 }

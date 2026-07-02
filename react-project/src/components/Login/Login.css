@@ -1,0 +1,103 @@
+/* ---------------- LOGIN ---------------- */
+
+.login-form {
+  max-width: 500px;
+  width: 100%;
+
+  margin: 3rem auto;
+  padding: 2rem;
+
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+
+  color: #1a1a1a;
+}
+
+/* ---------------- TÍTULO ---------------- */
+
+.login-form h2 {
+  margin-bottom: 1.8rem;
+  padding-bottom: .8rem;
+
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+
+  border-bottom: 1px solid #e8e8e8;
+}
+
+/* ---------------- CAMPOS ---------------- */
+
+.login-form .form-group {
+  display: grid;
+  gap: .45rem;
+  margin-bottom: 1.3rem;
+}
+
+.login-form label {
+  font-size: .95rem;
+  font-weight: 500;
+  color: #444;
+}
+
+/* ---------------- INPUTS ---------------- */
+
+.login-form input {
+  width: 100%;
+
+  padding: .75rem .9rem;
+
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+
+  background: #fff;
+  color: #1a1a1a;
+
+  outline: none;
+  transition: .2s ease;
+}
+
+.login-form input::placeholder {
+  color: #999;
+}
+
+.login-form input:focus {
+  border-color: #D32F2F;
+  box-shadow: 0 0 0 3px rgba(211,47,47,.12);
+}
+
+/* ---------------- BOTÓN ---------------- */
+
+.login-form button {
+  width: 100%;
+
+  margin-top: .75rem;
+  padding: .8rem;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #D32F2F;
+  color: #fff;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.login-form button:hover {
+  background: #ee0000;
+  transform: translateY(-2px);
+}
+
+.login-form button:active {
+  transform: translateY(0);
+}
+
+.login-form button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}

@@ -1,0 +1,120 @@
+body{
+    background: #c4c4c4;
+}
+
+.dashboard {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+
+  color: #1a1a1a;
+}
+
+/* ---------------- HEADER ---------------- */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+
+  border-bottom: 1px solid #1a1a1a;
+  box-shadow: none;
+}
+
+.dashboard-header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.header-actions {
+  display: flex;
+  gap: .75rem;
+}
+
+/* ---------------- ACCIONES ---------------- */
+
+.dashboard-actions {
+  margin-bottom: 2rem;
+}
+
+.dashboard-actions h3 {
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.actions-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.action-card {
+  flex: 1;
+  min-width: 220px;
+
+  padding: 1.5rem;
+
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  color: #1a1a1a;
+  background: #fafafa;
+
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+
+  transition: .2s ease;
+}
+
+.action-card:hover {
+  background: #D32F2F;
+  color: white;
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 18px rgba(211,47,47,.18);
+}
+
+.dashboard .action-card.disabled {
+  pointer-events: none;
+  opacity: .45;
+  background: #f3f3f3;
+  cursor: not-allowed;
+}
+
+/* ---------------- BOTONES ---------------- */
+
+.header-actions button:hover {
+  background-color: #ee0000;
+}
+
+/* ---------------- AYUDA ---------------- */
+
+.dashboard-help {
+  margin-top: 2rem;
+
+  padding: 1.5rem;
+
+  background: #fafafa;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+
+  line-height: 1.6;
+}
+
+.dashboard-help h3 {
+  margin-bottom: .75rem;
+  font-size: 1.3rem;
+}
+
+.dashboard-help p {
+  color: #555;
+}
